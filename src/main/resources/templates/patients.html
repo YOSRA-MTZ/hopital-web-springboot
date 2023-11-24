@@ -40,9 +40,9 @@
             <td th:text="${p.malade}"></td>
             <td th:text="${p.score}"></td>
             <td  th:if="${#authorization.expression('hasRole(''ADMIN'')')}">
-              <a class="btn btn-success" th:href="@{/admin/editPatient(id=${p.id},keyword=${keyword}, page=${currentPage})}"> <i class="bi bi-pencil">Edit</i></a>
+              <a class="btn btn-success" th:href="@{/admin/editPatient(id=${p.id},keyword=${keyword}, page=${currentPage})}"> <i class="bi bi-pencil"></i></a>
               <a onclick="return confirm('Etes-vous sur?')" class="btn btn-danger"
-                 th:href="@{/admin/delete(id=${p.id}, keyword=${keyword}, page=${currentPage})}"> <i class="bi bi-trash">Delete</i></a>
+                 th:href="@{/admin/delete(id=${p.id}, keyword=${keyword}, page=${currentPage})}"> <i class="bi bi-trash"></i></a>
             </td>
 
           </tr>
