@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"
-      xmlns:th="http://www.thymeleaf.org"
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
       xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
       layout:decorate="template1">
 <head>
@@ -25,8 +24,8 @@
         <span class="text-danger" th:errors="${patient.nom}"></span>
       </div>
       <div>
-        <label for="dateNaissance">Date de naissance</label>
-        <input class="form-control" type="date" name="dateNaissance" id="dateNaissance" th:value="${patient.dateNaissance}">
+        <label for="dateNaissance">Date de Naissance:</label>
+        <input id="dateNaissance" class="form-control" type="date" name="dateNaissance" th:value="${patient.dateNaissance}">
         <span class="text-danger" th:errors="${patient.dateNaissance}"></span>
       </div>
       <div>

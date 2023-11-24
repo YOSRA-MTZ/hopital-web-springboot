@@ -18,7 +18,7 @@ public class Patient {
     @NotEmpty
     @Size(min = 2,max = 40)
     private String nom;
-    @Temporal(TemporalType.TIMESTAMP)
+    @Temporal(TemporalType.DATE)
     @DateTimeFormat(pattern = "yyyy-MM-dd")
     private Date dateNaissance;
     private boolean malade;
