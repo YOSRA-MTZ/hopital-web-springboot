@@ -16,13 +16,15 @@ Supprimer un patient
 Sécuriser les données des utilisateurs
 Gérer les droits d'accès
 <h3>Objectifs</h3>
-Créer un projet spring boot avec les dépendances Web, Spring Data JPA, H2, Lombok, Thymeleaf
-Créer l'entité JPA Patient
-Créer l'interface PatientRepository basée sur Spring Data
-Configurer l'application pour se connecter soit à h2 Database ou à MySQL (application properties)
-Créer le contrôleur Spring MVC
-Créer les vues basées sur Thymeleaf
-Sécuriser cette application en intégrant un système d'authentification basé sur Spring security avec les trois stratégies:
+<ul>
+<li>Créer un projet spring boot avec les dépendances Web, Spring Data JPA, H2, Lombok, Thymeleaf</li>
+<li>Créer l'entité JPA Patient</li>
+<li>Créer l'interface PatientRepository basée sur Spring Data</li>
+<li>Configurer l'application pour se connecter soit à h2 Database ou à MySQL (application properties)</li>
+<li>Créer le contrôleur Spring MVC</li>
+<li>Créer les vues basées sur Thymeleaf</li>
+<li>Sécuriser cette application en intégrant un système d'authentification basé sur Spring security avec les trois stratégies:
 InMemoryAuthentication
 JdbcAuthentication
-UserDetailsService
+UserDetailsService </li>
+</ul>
