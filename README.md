@@ -1,13 +1,23 @@
-<h1>Rapport de TP N°3-4 : Projet Spring Boot avec Spring Security</h1>
+<h1>Activité pratique 3</h1>
 <h2>Development Web JEE Spring MVC</h2>
-<h3>Introduction</h3>
-Ce projet pratique explore le développement d'une application web sécurisée axée sur la gestion complète des patients en utilisant les frameworks Spring Boot et Spring Security. Le code fourni établit une base solide, mettant en avant des fonctionnalités cruciales telles que la création, la lecture, la mise à jour et la suppression (CRUD) des données des patients.
-L'objectif initial consiste à configurer une application Spring Boot, mettant en avant les fonctionnalités flexibles et puissantes du framework. La sécurité est une préoccupation majeure, avec l'implémentation de trois stratégies d'authentification différentes :
-
-InMemoryAuthentication
-JdbcAuthentication
-l'utilisation d'un service UserDetailsService.
-L'intégration d'une entité JPA pour la représentation des données des patients souligne le concept de persistance des données. Le code inclut des opérations complètes de CRUD, illustrant comment interagir efficacement avec la base de données pour gérer les informations des patients.
-Un aspect notoire de ce projet est la prise en charge de deux bases de données distinctes, H2 et MySQL, mettant en lumière la flexibilité de Spring Boot en termes de connectivité à diverses sources de données.
-<h3>Enoncé</h3>
-
+<h3>Objectifs</h3>
+<p>Créer une application web JEE qui permet de gérer des patients</p>
+<ol>
+<li>Créer un projet spring boot avec les dépendances Web, Spring Data JPA, H2,
+Lombock, Thymeleaf</li>
+<img src="./captures/screenshot.png" alt="dependencies">
+<li>Créer l'entité JPA Patient</li>
+<img src="./captures/patient.png" alt="patient entity">
+<li>Créer l'interface PatientRepository basée sur Spring Data</li>
+<img src="./captures/patientRepository.png" alt="patient repository">
+<li>Configurer l'application (application properties)</li>
+<img src="./captures/applicationProperties.png" alt="application properties">
+<li>Créer le contrôleur Spring MVC</li>
+<p>Partie qui gère l'affichage des patients avec la pagination</p>
+<img src="./captures/controller.png" alt="controller">
+<p>Partie qui concerne le bouton delete pour effacer un patient</p>
+<img src="./captures/deletePatient.png" alt="delete">
+<img src="./captures/controller2.png">
+<li>Créer les vues basées sur Thymeleaf</li>
+<img src="./captures/vue.png">
+</ol>
