@@ -10,3 +10,4 @@ l'utilisation d'un service UserDetailsService.
 L'intégration d'une entité JPA pour la représentation des données des patients souligne le concept de persistance des données. Le code inclut des opérations complètes de CRUD, illustrant comment interagir efficacement avec la base de données pour gérer les informations des patients.
 Un aspect notoire de ce projet est la prise en charge de deux bases de données distinctes, H2 et MySQL, mettant en lumière la flexibilité de Spring Boot en termes de connectivité à diverses sources de données.
 <h3>Enoncé</h3>
+
